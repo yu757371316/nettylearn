@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="off" monitorInterval="1800">
+
+    <properties>
+        <!--<property name="LOG_HOME">/usr/local/tomcat-display/logs</property>-->
+        <property name="LOG_HOME">logs</property>
+        <property name="FILE_NAME">agps-task</property>
+    </properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT"> <!-- [%t] -->
+        	<PatternLayout pattern="%date{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <RollingRandomAccessFile name="running-log"
+            fileName="${LOG_HOME}/${FILE_NAME}.log" filePattern="${LOG_HOME}/$${date:yyyy-MM}/${FILE_NAME}-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout
+                pattern="%date{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread][%file:%line] - %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="20" />
+        </RollingRandomAccessFile>
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="warn">
+            <AppenderRef ref="running-log" />
+            <AppenderRef ref="Console" />
+        </Root>
+
+        <logger name="com.neo.agps.tcp" level="DEBUG">
+            <AppenderRef ref="running-log" />
+        </logger>
+    </Loggers>
+</Configuration>

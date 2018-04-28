@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Service>
+ 	 <Header>
+ 	 <Version>1.0</Version>	
+ 	 <ExBranchNo>360001</ExBranchNo>
+ 	 <ExSerial>20150428153300</ExSerial>
+ 	 <Branchno>080001</Branchno>
+ 	 <SerialNo></SerialNo>
+ 	 <TransDate>20150428</TransDate>
+ 	 <TransTime>153300</TransTime>
+ 	 <Channel>998</Channel>
+ 	 <TransCode>31001</TransCode>
+ 	 <FileFlag>0</FileFlag>
+ 	 <FileId></FileId>
+ 	 <Fileame></Fileame>
+ 	 <Direction>0</Direction>
+ 	 <RespCode></RespCode>
+ 	 <RespMesg></RespMesg>
+ 	</Header>
+ 	<Body>
+  		<request>
+  			<OperType>1</OperType>
+  			<ClientNo>20150428</ClientNo>
+  			<ClientName>开户</ClientName>
+  			<ClientType>1</ClientType>
+  			<ClientGroup>0</ClientGroup>
+  			<EAcctNo></EAcctNo>
+  			<EAcctPass>password</EAcctPass>
+  			<IdType>A</IdType>
+  			<IdCode>370629197711225267</IdCode>
+  			<PostCode></PostCode>
+  			<Mobile>13811233423</Mobile>
+  			<Address>恒丰银行</Address>
+  			<Mail>hengfeng@hengfeng.com</Mail>
+  			<MessageFlag>0</MessageFlag>
+  			<Reserve1></Reserve1>
+  			<Reserve2></Reserve2>
+  		</request>
+  	</Body>
+</Service>

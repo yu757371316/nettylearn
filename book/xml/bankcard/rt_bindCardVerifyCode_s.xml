@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Service>
+	<Header>
+		<Version>1.0</Version>
+		<ExBranchNo>360001</ExBranchNo>
+		<ExSerial>20150804000009</ExSerial>
+		<Branchno>080001</Branchno>
+		<SerialNo>36000120150804085651000000234</SerialNo>
+		<TransDate>20150804</TransDate>
+		<TransTime>112530</TransTime>
+		<Channel>998</Channel>
+		<TransCode>31020</TransCode>
+		<FileFlag />
+		<FileId />
+		<Fileame />
+		<Direction>1</Direction>
+		<RespCode>0000</RespCode>
+		<RespMesg>交易成功</RespMesg>
+	</Header>
+	<Body>
+		<response>
+			<RelatedKey>10000</RelatedKey>
+		</response>
+	</Body>
+</Service>

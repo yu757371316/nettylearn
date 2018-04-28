@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Service><Header><Version>1.0</Version>
+<ExBranchNo>360001</ExBranchNo>
+<ExSerial>20150428165130</ExSerial>
+<Branchno>080001</Branchno>
+<SerialNo></SerialNo>
+<TransDate>20150428</TransDate>
+<TransTime>165130</TransTime>
+<Channel>998</Channel>
+<TransCode>31001</TransCode>
+<FileFlag></FileFlag>
+<FileId></FileId>
+<Fileame></Fileame>
+<Direction>1</Direction>
+<RespCode>0026</RespCode>
+<RespMesg>电子账户不正确</RespMesg>
+</Header></Service>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<header>	
+		<version>1.0</version>
+		<ExBranchNo>360001</ExBranchNo>		
+		<ExSerial>2015080716001000</ExSerial>		
+		<Branchno>080001</Branchno>		
+		<SerialNo></SerialNo>	
+		<TransDate>20150807</TransDate>		
+		<TransTime>160400</TransTime>	
+		<Channel>998</Channel>		
+		<TransCode>31001</TransCode>	
+		<FileFlag>0</FileFlag>		
+		<FileId></FileId>		
+		<FileName></FileName>
+		<Direction>0</Direction>
+		<RespCode>0001</RespCode>
+		<RespMesg>请求失败</RespMesg>		
+	</header>
+	<body>
+		<response>			
+		</response>		
+	</body>	
+</service>
+
