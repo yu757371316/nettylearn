@@ -30,6 +30,12 @@
                 <version>0.8.11</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.msgpack</groupId>
+                <artifactId>msgpack</artifactId>
+                <version>0.6.12</version>
+            </dependency>
+
 
             <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java -->
             <dependency>
